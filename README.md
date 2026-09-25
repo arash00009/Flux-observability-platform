@@ -19,7 +19,7 @@ Observability tooling that is set up by hand drifts over time and is hard to reb
 FluxCD · Kubernetes · Traefik · Prometheus · Alertmanager · Loki · FluentBit · Tempo · Grafana · Helm · Kustomize
 
 ## Result
-The whole stack is described in Git and built in nine ordered parts (see the guide below). [Fill in: how many environments or clusters you ran it on, and anything you measured]
+The whole stack is described in Git and built in nine ordered parts (see the guide below). At Cloudist it ran with Kustomize overlays for three environments (base, staging, production), and the architecture and design decisions are written up in my 63-page thesis.
 
 ## What was hard
 | Problem | What fixed it |
